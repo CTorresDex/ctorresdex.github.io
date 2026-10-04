@@ -1,0 +1,8 @@
+:root { --bg:#fff; --fg:#1d1d1f; --mute:#5f6368; --acc:#1a73e8; }
+@media (prefers-color-scheme: dark) { :root { --bg:#141416; --fg:#ececee; --mute:#9a9aa0; --acc:#8ab4f8; } }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, sans-serif; }
+main { max-width:720px; margin:0 auto; padding:3rem 16px; }
+h1 { font-size:1.6rem; margin-top:0; }
+h2 { font-size:1.1rem; margin-top:2rem; }
+a { color:var(--acc); }
+.mute { color:var(--mute); font-size:.9rem; }
